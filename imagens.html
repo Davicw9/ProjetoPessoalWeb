@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    header{
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(31, 161, 107);
+    }
+    div{
+        display: flex;
+        justify-content: center;
+    }
+    picture{
+        margin-top: 50px;
+    }
+</style>
 <body>
-    <picture>
-        <source media="(max-width: 1200px)" srcset="sources/imagens/Screenshot_3_tam3.png">
-        <source media="(max-width: 720px)" srcset="sources/imagens/Screenshot_3_tam4.png">
-        <img src="sources/imagens/Screenshot_3_tam2.png" alt="">
-    </picture>
+    <header></header>
+    <div>
+        <picture>
+            <source media="(max-width: 1200px)" srcset="sources/imagens/Screenshot_3_tam3.png">
+            <source media="(max-width: 720px)" srcset="sources/imagens/Screenshot_3_tam4.png">
+            <img src="sources/imagens/Screenshot_3_tam2.png" alt="">
+        </picture>
+    </div>
 </body>
 </html>
