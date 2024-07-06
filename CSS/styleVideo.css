@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+#h1{
+    font-size: 35px;
+}
+table , td, th {
+	border-collapse: collapse;
+}
+td, th {
+	padding: 20px;
+	width: auto;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+
